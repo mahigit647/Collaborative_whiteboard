@@ -1,15 +1,13 @@
 {
-  "name": "server",
+  "name": "collaborative-whiteboard-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "WebSocket server for the collaborative whiteboard",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "ws": "^8.23.0"
   }
